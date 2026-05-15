@@ -1,30 +1,45 @@
+/* Body */
 body {
   background-color: #121212;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   padding: 2rem;
+  margin: 0;
   color: #fff;
 }
 
+/* Card */
 .spotify-card {
   background-color: #1DB954;
   border-radius: 16px;
   padding: 16px;
-  width: 320px;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* Header flex */
 .header {
   display: flex;
   gap: 12px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
+/* Profile Image */
 .header img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Profile info */
+.profile-info {
+  flex: 1;
+  min-width: 180px;
 }
 
 .profile-info h2 {
@@ -36,8 +51,10 @@ body {
   font-size: 0.85rem;
   color: #dcdcdc;
   margin: 0.3rem 0 0.5rem 0;
+  line-height: 1.2rem;
 }
 
+/* Follow Button */
 button#follow {
   background: #121212;
   border: none;
@@ -45,8 +62,26 @@ button#follow {
   padding: 0.4rem 0.7rem;
   border-radius: 6px;
   cursor: pointer;
+  margin-top: 0.5rem;
 }
 
+/* Spotify Player */
+.spotify-player {
+  margin-top: 16px;
+}
+
+/* Track List */
+.track-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.track-list li {
+  padding: 0.5rem 0;
+}
+
+/* Social Links */
 .social-links {
   display: flex;
   flex-wrap: wrap;
@@ -61,4 +96,16 @@ button#follow {
   background: rgba(0,0,0,0.2);
   padding: 0.3rem 0.5rem;
   border-radius: 6px;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-info {
+    min-width: 100%;
+  }
 }
