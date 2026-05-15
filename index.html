@@ -1,41 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ridu Chowdhury - Music Profile</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridu Chowdhury - Music Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-<div class="spotify-card">
-  <div class="header">
-    <img src="assets/profile.jpg" alt="Ridu Chowdhury">
-    <div class="profile-info">
-      <h2>Ridu Chowdhury</h2>
-      <p class="bio">Creating music that touches hearts and connects people worldwide.</p>
-      <button id="follow">Follow</button>
+    <div class="container">
+        <header class="profile">
+            <div class="profile-img">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture"> </div>
+            <h1>Ridu Chowdhury <span class="verified-check">✔</span></h1>
+            <p class="tagline">Singer • Songwriter • Dreamer</p>
+            <p class="bio">Creating music that touches hearts.</p>
+        </header>
+
+        <div class="social-links">
+            <a href="#"><i class="fab fa-spotify"></i><span>Spotify</span></a>
+            <a href="#"><i class="fab fa-apple"></i><span>Apple Music</span></a>
+            <a href="#"><i class="fab fa-youtube"></i><span>YouTube</span></a>
+            <a href="#"><i class="fab fa-facebook"></i><span>Facebook</span></a>
+            <a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+            <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+        </div>
+
+        <div class="music-card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/120" alt="Album Art" class="album-art">
+                <div class="artist-info">
+                    <h2>Ridu Chowdhury</h2>
+                    <p>Top tracks</p>
+                    <button class="follow-btn">Follow</button>
+                </div>
+                <i class="fab fa-spotify spotify-logo"></i>
+            </div>
+
+            <div class="controls">
+                <span class="preview-tag">Preview</span>
+                <div class="player-btns">
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="play-main">
+                    <i class="fas fa-play-circle"></i>
+                </div>
+            </div>
+
+            <ul class="track-list">
+                <li>
+                    <span class="track-num">1</span>
+                    <div class="track-meta">
+                        <span class="track-name">Aawaara Angaara</span>
+                        <span class="track-artist">Ridu Chowdhury</span>
+                    </div>
+                    <span class="duration">02:29</span>
+                </li>
+                <li>
+                    <span class="track-num">2</span>
+                    <div class="track-meta">
+                        <span class="track-name">Shantite Ghumaio Pakhi</span>
+                        <span class="track-artist">Ridu Chowdhury</span>
+                    </div>
+                    <span class="duration">04:09</span>
+                </li>
+                <li>
+                    <span class="track-num">3</span>
+                    <div class="track-meta">
+                        <span class="track-name">Dekhle Tomay Dile Tan</span>
+                        <span class="track-artist">Ridu Chowdhury</span>
+                    </div>
+                    <span class="duration">03:24</span>
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>© 2024 Ridu Chowdhury. All rights reserved.</p>
+        </footer>
     </div>
-  </div>
 
-  <div class="spotify-player">
-    <ul class="track-list">
-      <li data-platform="spotify" data-src="https://open.spotify.com/artist/7se5YQtsrXcxlvBxEtJq5s?si=CNezL_xTQcGe5J5HAkWGrA"></li>
-    </ul>
-  </div>
-
-  <div class="social-links">
-    <a href="https://open.spotify.com/artist/7se5YQtsrXcxlvBxEtJq5s" data-platform="spotify">Spotify</a>
-    <a href="https://music.apple.com/us/artist/ridu-chowdhury/1896496372" data-platform="apple">Apple Music</a>
-    <a href="https://www.youtube.com/@ridu_music" data-platform="youtube">YouTube</a>
-    <a href="https://www.facebook.com/riduchowdhury" data-platform="facebook">Facebook</a>
-    <a href="https://www.instagram.com/riduchowdhury" data-platform="instagram">Instagram</a>
-    <a href="https://twitter.com/riduchowdhury" data-platform="twitter">Twitter</a>
-  </div>
-</div>
-
-<audio id="audio-player"></audio>
-
-<script src="script.js"></script>
 </body>
 </html>
