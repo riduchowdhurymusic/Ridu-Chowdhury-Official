@@ -46,9 +46,15 @@ body {
   margin-bottom: 30px;
 }
 
+.social-links a {
+  display: inline-block;
+  width: 20px;   /* container width */
+  height: 20px;  /* container height */
+}
+
 .social-links a img {
-  width: 20px;
-  height: 20px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   display: block;
 }
