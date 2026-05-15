@@ -48,8 +48,8 @@ body {
 
 .social-links a {
   display: inline-block;
-  width: 20px;   /* container width */
-  height: 20px;  /* container height */
+  width: 40px;   /* container width */
+  height: 40px;  /* container height */
 }
 
 .social-links a img {
