@@ -1,6 +1,6 @@
 const artistProfile = {
-  name: "Ridu Chowdhury – Musician",
-  bio: "Bangladeshi singer and musician creating soulful songs that connect hearts.",
+  name: "Ridu Chowdhury",
+  bio: "Ridu Chowdhury Bangladeshi singer and musician creating soulful songs that connect hearts.",
   profilePic: "assets/profile.jpg",
   spotifyEmbed: "https://open.spotify.com/embed/artist/7se5YQtsrXcxlvBxEtJq5s",
   socialLinks: [
