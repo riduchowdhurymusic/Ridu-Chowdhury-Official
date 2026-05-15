@@ -1,0 +1,67 @@
+body {
+  background-color: #1e1e1e;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.spotify-card {
+  background-color: #1DB954;
+  border-radius: 16px;
+  padding: 1rem;
+  width: 320px;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  gap: 1rem;
+}
+
+.header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.profile-info p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+}
+
+button {
+  background: #121212;
+  border: none;
+  color: #fff;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.player {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.social-links a {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+  background: rgba(0,0,0,0.2);
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+}
