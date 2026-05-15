@@ -9,7 +9,7 @@ const artistProfile = {
     { platform: "YouTube", url: "https://www.youtube.com/@Ridu_Music", icon: "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" },
     { platform: "Facebook", url: "https://www.facebook.com/riduchowdhurymusic", icon: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" },
     { platform: "Instagram", url: "https://www.instagram.com/riduchowdhurymusic", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
-    { platform: "Twitter", url: "https://twitter.com/ridu_music", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1280px-Logo_of_Twitter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20220821125553" }
+    { platform: "Twitter", url: "https://x.com/ridu_music", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1280px-Logo_of_Twitter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20220821125553" }
   ]
 };
 
