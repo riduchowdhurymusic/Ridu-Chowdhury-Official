@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ridu Chowdhury - Music Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="spotify-card">
+  <div class="header">
+    <img src="assets/profile.jpg" alt="Ridu Chowdhury">
+    <div class="profile-info">
+      <h2>Ridu Chowdhury</h2>
+      <p>Bangladeshi Musician | Singer</p>
+      <button id="follow">Follow</button>
+    </div>
+  </div>
+
+  <div class="player">
+    <button id="prev">⏮️</button>
+    <button id="play">▶️</button>
+    <button id="next">⏭️</button>
+    <button id="preview">Preview</button>
+  </div>
+
+  <ul class="track-list">
+    <!-- Spotify লিঙ্ক দিয়ে প্লে হবে -->
+    <li data-platform="spotify" data-src="https://open.spotify.com/track/আপনারট্র্যাকআইডি1"></li>
+  </ul>
+
+  <div class="social-links">
+    <a href="https://open.spotify.com/artist/7se5YQtsrXcxlvBxEtJq5s" data-platform="spotify">Spotify</a>
+    <a href="https://music.apple.com/us/artist/ridu-chowdhury/1896496372" data-platform="apple">Apple Music</a>
+    <a href="https://www.youtube.com/@ridu_music" data-platform="youtube">YouTube</a>
+    <a href="https://www.facebook.com/riduchowdhury" data-platform="facebook">Facebook</a>
+    <a href="https://www.instagram.com/riduchowdhury" data-platform="instagram">Instagram</a>
+    <a href="https://twitter.com/riduchowdhury" data-platform="twitter">Twitter</a>
+  </div>
+</div>
+
+<audio id="audio-player"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
