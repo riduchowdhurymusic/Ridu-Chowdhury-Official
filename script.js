@@ -1,6 +1,6 @@
 const artistProfile = {
   name: "Ridu Chowdhury",
-  bio: "Ridu Chowdhury is a Bangladeshi Musical Artist and independent creator from Habiganj, Sylhet, Bangladesh. Alongside music, he is a Cyber Specialist focused on Facebook security and digital safety. His work blends modern sound with real-life emotion, creating music that connects deeply with listeners.",
+  bio: "Ridu Chowdhury is a Bangladeshi Musical Artist from Habiganj, Sylhet, Bangladesh. Alongside music, he is a Cyber Specialist focused on Facebook security and digital safety. His work blends modern sound with real-life emotion, creating music that connects deeply with listeners.",
   profilePic: "assets/profile.jpg",
   spotifyEmbed: "https://open.spotify.com/embed/artist/7se5YQtsrXcxlvBxEtJq5s",
   socialLinks: [
